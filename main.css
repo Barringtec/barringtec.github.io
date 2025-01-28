@@ -1,7 +1,53 @@
 body {
-    background-color: rgb(225, 225, 225);
+    background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 .div1 {
     text-align: center;
+    background-color: rgb(240, 240, 240);
+
 }
+
+.devices {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.installations {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.training {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
+
+.footer-main {
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: smaller;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    padding: 6px;
+}
+
+
