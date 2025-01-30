@@ -8,7 +8,7 @@ echo " | |\/| |/ _  |/ __|  | ||  _ \| |_ / _ \  "
 echo " | |  | | (_| | (__   | || | | |  _| (_) | "
 echo " |_|  |_|\__,_|\___| |___|_| |_|_|  \___/  "
 echo "                                           "
-echo "         Barringtec © `date '+%Y'`   "
+echo "            Barringtec © `date '+%Y'`   "
 
                                                  
 CPU_MODEL=`sysctl -n machdep.cpu.brand_string`;
