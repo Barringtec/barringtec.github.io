@@ -1,11 +1,12 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(9, 9, 9);
     margin: 0;
 }
 
 .div1 {
     text-align: center;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(9, 9, 9);
+    color: beige;
 
 }
 
@@ -34,15 +35,13 @@ body {
 }
 
 .title {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    height: 30%;
+    text-align: center;
+    transform: scale(0.5);
+
 }
 
 .footer-main {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(18, 18, 18);
     text-align: center;
     font-size: smaller;
     font-family: "Inter", serif;
