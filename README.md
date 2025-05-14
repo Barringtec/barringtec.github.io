@@ -1,1 +1,1 @@
-Barringtec
+Barringtec - Technology Solutions
