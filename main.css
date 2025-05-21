@@ -10,30 +10,6 @@ body {
 
 }
 
-.devices {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 80%;
-}
-
-.installations {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 80%;
-}
-
-.training {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    height: 80%;
-}
-
 .title {
     text-align: center;
 }
@@ -42,7 +18,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    max-width: 80%;
 }
 
 .footer-main {
