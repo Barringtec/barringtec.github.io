@@ -8,6 +8,9 @@ CPU_MODEL="$(sysctl -n machdep.cpu.brand_string 2>/dev/null)"
 # Model Identifier (e.g., MacBookPro18,2)
 MODEL_ID="$(sysctl -n hw.model 2>/dev/null)"
 
+# Model Number (e.g., MPHH3B/A)
+MODEL_NUMBER="$(system_profiler SPHardwareDataType | grep "Model Number" | awk '{print $3}')"
+
 # Model Name (user‑friendly)
 MODEL_NAME="$(system_profiler SPHardwareDataType | awk -F': ' '/Model Name/{print $2}')"
 
@@ -49,7 +52,9 @@ echo ""
 echo "==========================================="
 echo ""
 echo "Model Name:     $MODEL_NAME"
+echo "Model Number:   $MODEL_NUMBER"
 echo "Model ID:       $MODEL_ID"
+echo ""
 echo "CPU Model:      $CPU_MODEL"
 echo "Memory:         ${MEMORY_SIZE} GB"
 echo "Disk:           $DISK_SIZE"
